@@ -1,12 +1,12 @@
 [![Built with pwa–starter–kit](https://img.shields.io/badge/built_with-pwa–starter–kit_-blue.svg)](https://github.com/Polymer/pwa-starter-kit "Built with pwa–starter–kit")
-[![Build status](https://api.travis-ci.org/Polymer/pwa-starter-kit.svg?branch=master)](https://travis-ci.org/Polymer/pwa-starter-kit)
+[![Build status](https://api.travis-ci.org/Polymer/pwa-starter-kit.svg?branch=template-pika-web)](https://travis-ci.org/Polymer/pwa-starter-kit)
 
 > ## 🛠 Status: In Development
 > PWA Starter Kit is currently in development. It's on the fast track to a 1.0 release, so we encourage you to use it and give us your feedback, but there are things that haven't been finalized yet and you can expect some changes.
 >
 > See the list of Known Issues and TODOs, below, for updates.
 
-# PWA Starter Kit
+# PWA Starter Kit -- `template-pika-web`
 
 This sample app is a starting point for building PWAs. Out of the box, the template
 gives you the following features:
@@ -20,6 +20,10 @@ gives you the following features:
 - easy deployment to prpl-server or static hosting
 - unit and integrating testing starting points
 - documentation about other advanced patterns.
+
+In addition to the standard features, this uses pika-web to load packages into a `/web_modules` folder for convenient and fast web module imports. This folder will be created when `npm install` is run.
+
+For more information on @pika/web, head over to the [@pika/web GitHub repository](https://github.com/pikapkg/web)
 
 ### 📖 Head over to the [documentation site](https://pwa-starter-kit.polymer-project.org/) for more details or check out [how to get started](https://pwa-starter-kit.polymer-project.org/setup)!
 
