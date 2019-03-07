@@ -15,7 +15,7 @@ import {
   CHECKOUT_SUCCESS,
   CHECKOUT_FAILURE
 } from '../actions/shop.js';
-import { createSelector } from 'reselect';
+import { createSelector } from '/web_modules/reselect.js';
 
 const INITIAL_STATE = {
   products: {},

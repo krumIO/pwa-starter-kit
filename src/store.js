@@ -13,9 +13,9 @@ import {
   compose,
   applyMiddleware,
   combineReducers
-} from 'redux';
-import thunk from 'redux-thunk';
-import { lazyReducerEnhancer } from 'pwa-helpers/lazy-reducer-enhancer.js';
+} from '/web_modules/redux.js';
+import thunk from '/web_modules/redux-thunk.js';
+import { lazyReducerEnhancer } from '/web_modules/pwa-helpers.js';
 
 import app from './reducers/app.js';
 

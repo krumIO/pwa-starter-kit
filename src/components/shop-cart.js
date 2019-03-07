@@ -8,8 +8,8 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
 
-import { LitElement, html, css } from 'lit-element';
-import { connect } from 'pwa-helpers/connect-mixin.js';
+import { LitElement, html, css } from '/web_modules/lit-element.js';
+import { connect } from '/web_modules/pwa-helpers.js';
 
 // This element is connected to the Redux store.
 import { store } from '../store.js';

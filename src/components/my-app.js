@@ -8,13 +8,13 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
 
-import { LitElement, html, css } from 'lit-element';
+import { LitElement, html, css } from '/web_modules/lit-element.js';
 import { setPassiveTouchGestures } from '@polymer/polymer/lib/utils/settings.js';
-import { connect } from 'pwa-helpers/connect-mixin.js';
-import { installMediaQueryWatcher } from 'pwa-helpers/media-query.js';
-import { installOfflineWatcher } from 'pwa-helpers/network.js';
-import { installRouter } from 'pwa-helpers/router.js';
-import { updateMetadata } from 'pwa-helpers/metadata.js';
+import { connect } from '/web_modules/pwa-helpers.js';
+import { installMediaQueryWatcher } from '/web_modules/pwa-helpers.js';
+import { installOfflineWatcher } from '/web_modules/pwa-helpers.js';
+import { installRouter } from '/web_modules/pwa-helpers.js';
+import { updateMetadata } from '/web_modules/pwa-helpers.js';
 
 // This element is connected to the Redux store.
 import { store } from '../store.js';
